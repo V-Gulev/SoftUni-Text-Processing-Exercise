@@ -1,19 +1,16 @@
 import java.util.*;
+import java.util.stream.Stream;
 
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String[] words = scanner.nextLine().split(" ");
-        StringBuilder result = new StringBuilder();
+        String wordToRemove = scanner.nextLine();
+        String text = scanner.nextLine();
 
-        for (String word : words) {
-            int count = word.length();
-            for (int i = 0; i < count; i++) {
-                result.append(word);
-            }
+        while (text.contains(wordToRemove)) {
+            text = text.replace(wordToRemove, "");
         }
-        System.out.println(result.toString());
-
+        System.out.println(text);
     }
 }

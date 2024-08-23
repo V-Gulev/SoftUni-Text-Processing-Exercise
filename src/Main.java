@@ -4,21 +4,16 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        String[] words = scanner.nextLine().split(" ");
+        StringBuilder result = new StringBuilder();
 
-
-        while (true) {
-            String line = scanner.nextLine();
-            if (line.equals("end")) {
-                break;
+        for (String word : words) {
+            int count = word.length();
+            for (int i = 0; i < count; i++) {
+                result.append(word);
             }
-            String reversed = "";
-            for (int i = line.length() - 1; i >= 0; i--) {
-                reversed += line.charAt(i);
-            }
-            System.out.printf("%s = %s%n",line,reversed);
         }
-
-
+        System.out.println(result.toString());
 
     }
 }

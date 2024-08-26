@@ -3,46 +3,21 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        Map<String, String> morseCodeMap = new HashMap<>();
-        morseCodeMap.put(".-", "A");
-        morseCodeMap.put("-...", "B");
-        morseCodeMap.put("-.-.", "C");
-        morseCodeMap.put("-..", "D");
-        morseCodeMap.put(".", "E");
-        morseCodeMap.put("..-.", "F");
-        morseCodeMap.put("--.", "G");
-        morseCodeMap.put("....", "H");
-        morseCodeMap.put("..", "I");
-        morseCodeMap.put(".---", "J");
-        morseCodeMap.put("-.-", "K");
-        morseCodeMap.put(".-..", "L");
-        morseCodeMap.put("--", "M");
-        morseCodeMap.put("-.", "N");
-        morseCodeMap.put("---", "O");
-        morseCodeMap.put(".--.", "P");
-        morseCodeMap.put("--.-", "Q");
-        morseCodeMap.put(".-.", "R");
-        morseCodeMap.put("...", "S");
-        morseCodeMap.put("-", "T");
-        morseCodeMap.put("..-", "U");
-        morseCodeMap.put("...-", "V");
-        morseCodeMap.put(".--", "W");
-        morseCodeMap.put("-..-", "X");
-        morseCodeMap.put("-.--", "Y");
-        morseCodeMap.put("--..", "Z");
-
-        String[] morseCodeWords = scanner.nextLine().split(" \\| ");
-        StringBuilder result = new StringBuilder();
-
-        for (String word : morseCodeWords) {
-            String[] letters = word.split(" ");
-            for (String letter : letters) {
-                result.append(morseCodeMap.get(letter));
+        String title = scanner.nextLine();
+        String content = scanner.nextLine();
+        List<String> comments = new ArrayList<>();
+        while (true) {
+            String input = scanner.nextLine();
+            if (input.equals("end of comments")) {
+                break;
             }
-            result.append(" ");
+            comments.add(input);
+        }
+        System.out.printf("<h1>%n    %s%n</h1>%n",title);
+        System.out.printf("<article>%n    %s%n</article>%n", content);
+        for (String j : comments) {
+            System.out.printf("<div>%n    %s%n</div>%n", j);
         }
 
-        System.out.println(result.toString().trim());
     }
 }

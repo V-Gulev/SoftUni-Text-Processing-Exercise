@@ -3,17 +3,33 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        char ch1 = scanner.nextLine().charAt(0);
-        char ch2 = scanner.nextLine().charAt(0);
-        char[] chars = scanner.nextLine().toCharArray();
-        int sum = 0;
-        int smallerChar = Math.min(ch1,ch2);
-        int biggerChar = Math.max(ch1,ch2);
-        for (char k : chars) {
-            if (k > smallerChar && k < biggerChar){
-                sum += k;
-            }
+        String[] keyString = scanner.nextLine().split(" ");
+        int[] key = new int[keyString.length];
+
+        for (int i = 0; i < key.length; i++) {
+            key[i] = Integer.parseInt(keyString[i]);
         }
-        System.out.println(sum);
+
+        while (true) {
+            String input = scanner.nextLine();
+            if (input.equals("find")) {
+                break;
+            }
+            StringBuilder result = new StringBuilder();
+            int index = 0;
+            for (int i = 0; i < input.length(); i++) {
+                char decrypted = (char) (input.charAt(i) - key[index]);
+                result.append(decrypted);
+                index++;
+                if (index == key.length){
+                    index = 0;
+                }
+            }
+            String type = result.substring(result.indexOf("&") + 1, result.lastIndexOf("&"));
+            String location = result.substring(result.indexOf("<") + 1, result.indexOf(">"));
+            System.out.printf("Found %s at %s%n", type, location);
+        }
+
+
     }
 }

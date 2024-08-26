@@ -3,13 +3,17 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = Integer.parseInt(scanner.nextLine());
-        for (int i = 0; i < n; i++) {
-            String input = scanner.nextLine();
-            String name = input.substring(input.indexOf("@") + 1, input.indexOf("|"));
-            String age = input.substring(input.indexOf("#") + 1, input.indexOf("*"));
-            System.out.printf("%s is %s years old.%n", name, age);
-
+        char ch1 = scanner.nextLine().charAt(0);
+        char ch2 = scanner.nextLine().charAt(0);
+        char[] chars = scanner.nextLine().toCharArray();
+        int sum = 0;
+        int smallerChar = Math.min(ch1,ch2);
+        int biggerChar = Math.max(ch1,ch2);
+        for (char k : chars) {
+            if (k > smallerChar && k < biggerChar){
+                sum += k;
+            }
         }
+        System.out.println(sum);
     }
 }

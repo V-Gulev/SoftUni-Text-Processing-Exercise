@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="TextFilter_04" />
+    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="DigitsLettersOther_05" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731172549664</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="DigitsLettersOther_05">
+      <option name="closed" value="true" />
+      <created>1731172656167</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731172656167</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +153,7 @@
     <MESSAGE value="RepeatStrings_02" />
     <MESSAGE value="Substring_03" />
     <MESSAGE value="TextFilter_04" />
-    <option name="LAST_COMMIT_MESSAGE" value="TextFilter_04" />
+    <MESSAGE value="DigitsLettersOther_05" />
+    <option name="LAST_COMMIT_MESSAGE" value="DigitsLettersOther_05" />
   </component>
 </project>

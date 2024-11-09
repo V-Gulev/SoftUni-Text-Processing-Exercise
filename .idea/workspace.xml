@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="HTML">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="TextFilter_04" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,7 +100,39 @@
       <option name="project" value="LOCAL" />
       <updated>1724684444388</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ReverseStrings_01">
+      <option name="closed" value="true" />
+      <created>1731172348774</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731172348774</updated>
+    </task>
+    <task id="LOCAL-00007" summary="RepeatStrings_02">
+      <option name="closed" value="true" />
+      <created>1731172400299</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731172400299</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Substring_03">
+      <option name="closed" value="true" />
+      <created>1731172462360</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731172462360</updated>
+    </task>
+    <task id="LOCAL-00009" summary="TextFilter_04">
+      <option name="closed" value="true" />
+      <created>1731172549664</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731172549664</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,6 +141,10 @@
     <MESSAGE value="Treasure Finder" />
     <MESSAGE value="Morse Code Translator" />
     <MESSAGE value="HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTML" />
+    <MESSAGE value="ReverseStrings_01" />
+    <MESSAGE value="RepeatStrings_02" />
+    <MESSAGE value="Substring_03" />
+    <MESSAGE value="TextFilter_04" />
+    <option name="LAST_COMMIT_MESSAGE" value="TextFilter_04" />
   </component>
 </project>

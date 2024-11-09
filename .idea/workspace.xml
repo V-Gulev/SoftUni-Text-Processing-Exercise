@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="DigitsLettersOther_05" />
+    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="TreasureFinder_03">
+      <change afterPath="$PROJECT_DIR$/src/MorseCodeTranslator_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +143,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731172656167</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ExtractPersonInformation_01">
+      <option name="closed" value="true" />
+      <created>1731173104663</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731173104663</updated>
+    </task>
+    <task id="LOCAL-00012" summary="AsciiSumator_02">
+      <option name="closed" value="true" />
+      <created>1731173277507</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731173277507</updated>
+    </task>
+    <task id="LOCAL-00013" summary="TreasureFinder_03">
+      <option name="closed" value="true" />
+      <created>1731173339538</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731173339538</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -154,6 +181,9 @@
     <MESSAGE value="Substring_03" />
     <MESSAGE value="TextFilter_04" />
     <MESSAGE value="DigitsLettersOther_05" />
-    <option name="LAST_COMMIT_MESSAGE" value="DigitsLettersOther_05" />
+    <MESSAGE value="ExtractPersonInformation_01" />
+    <MESSAGE value="AsciiSumator_02" />
+    <MESSAGE value="TreasureFinder_03" />
+    <option name="LAST_COMMIT_MESSAGE" value="TreasureFinder_03" />
   </component>
 </project>

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="CharacterMultiplier_02">
-      <change afterPath="$PROJECT_DIR$/src/ExtractFile_03.java" afterDir="false" />
+    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="ExtractFile_03">
+      <change afterPath="$PROJECT_DIR$/src/CaesarCipher_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CaesarCipher_04.executor": "Run",
     "Application.CharacterMultiplier_02.executor": "Run",
+    "Application.ExtractFile_03.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ValidUsernames_01.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -200,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731348877591</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ExtractFile_03">
+      <option name="closed" value="true" />
+      <created>1731349291668</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731349291668</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,6 +232,7 @@
     <MESSAGE value="HTML_05" />
     <MESSAGE value="ValidUsernames_01" />
     <MESSAGE value="CharacterMultiplier_02" />
-    <option name="LAST_COMMIT_MESSAGE" value="CharacterMultiplier_02" />
+    <MESSAGE value="ExtractFile_03" />
+    <option name="LAST_COMMIT_MESSAGE" value="ExtractFile_03" />
   </component>
 </project>

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="CaesarCipher_04">
-      <change afterPath="$PROJECT_DIR$/src/MultiplyBigNumber_05.java" afterDir="false" />
+    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="MultiplyBigNumber_05">
+      <change afterPath="$PROJECT_DIR$/src/ReplaceRepeatingChars_06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,8 @@
     "Application.CharacterMultiplier_02.executor": "Run",
     "Application.ExtractFile_03.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MultiplyBigNumber_05.executor": "Run",
+    "Application.ReplaceRepeatingChars_06.executor": "Run",
     "Application.ValidUsernames_01.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -219,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731350533358</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="MultiplyBigNumber_05">
+      <option name="closed" value="true" />
+      <created>1731351205971</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731351205971</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,6 +252,7 @@
     <MESSAGE value="CharacterMultiplier_02" />
     <MESSAGE value="ExtractFile_03" />
     <MESSAGE value="CaesarCipher_04" />
-    <option name="LAST_COMMIT_MESSAGE" value="CaesarCipher_04" />
+    <MESSAGE value="MultiplyBigNumber_05" />
+    <option name="LAST_COMMIT_MESSAGE" value="MultiplyBigNumber_05" />
   </component>
 </project>

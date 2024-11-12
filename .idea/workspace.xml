@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="MultiplyBigNumber_05">
-      <change afterPath="$PROJECT_DIR$/src/ReplaceRepeatingChars_06.java" afterDir="false" />
+    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="ReplaceRepeatingChars_06">
+      <change afterPath="$PROJECT_DIR$/src/StringExplosion_07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     "Application.Main.executor": "Run",
     "Application.MultiplyBigNumber_05.executor": "Run",
     "Application.ReplaceRepeatingChars_06.executor": "Run",
+    "Application.StringExplosion_07.executor": "Run",
     "Application.ValidUsernames_01.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -229,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731351205971</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="ReplaceRepeatingChars_06">
+      <option name="closed" value="true" />
+      <created>1731435579254</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731435579254</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -253,6 +262,7 @@
     <MESSAGE value="ExtractFile_03" />
     <MESSAGE value="CaesarCipher_04" />
     <MESSAGE value="MultiplyBigNumber_05" />
-    <option name="LAST_COMMIT_MESSAGE" value="MultiplyBigNumber_05" />
+    <MESSAGE value="ReplaceRepeatingChars_06" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReplaceRepeatingChars_06" />
   </component>
 </project>

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="MatchPhoneNumber_02">
-      <change afterPath="$PROJECT_DIR$/src/MatchDates_03.java" afterDir="false" />
+    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="MatchDates_03">
+      <change afterPath="$PROJECT_DIR$/src/Furniture_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,24 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CaesarCipher_04.executor": "Run",
-    "Application.CharacterMultiplier_02.executor": "Run",
-    "Application.ExtractFile_03.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MatchFullName_01.executor": "Run",
-    "Application.MatchPhoneNumber_02.executor": "Run",
-    "Application.MultiplyBigNumber_05.executor": "Run",
-    "Application.ReplaceRepeatingChars_06.executor": "Run",
-    "Application.StringExplosion_07.executor": "Run",
-    "Application.ValidUsernames_01.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/vilis/Developer/JavaFundamentals/SoftUni-Text-Processing-Exercise/Text-Processing-Exercise/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CaesarCipher_04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharacterMultiplier_02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExtractFile_03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatchDates_03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatchFullName_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatchPhoneNumber_02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiplyBigNumber_05.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReplaceRepeatingChars_06.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringExplosion_07.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidUsernames_01.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/vilis/Developer/JavaFundamentals/SoftUni-Text-Processing-Exercise/Text-Processing-Exercise/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -264,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731611741459</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="MatchDates_03">
+      <option name="closed" value="true" />
+      <created>1731612441373</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1731612441373</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -292,6 +301,7 @@
     <MESSAGE value="StringExplosion_07" />
     <MESSAGE value="MatchFullName_01" />
     <MESSAGE value="MatchPhoneNumber_02" />
-    <option name="LAST_COMMIT_MESSAGE" value="MatchPhoneNumber_02" />
+    <MESSAGE value="MatchDates_03" />
+    <option name="LAST_COMMIT_MESSAGE" value="MatchDates_03" />
   </component>
 </project>

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="Furniture_01">
-      <change afterPath="$PROJECT_DIR$/src/SoftUniBarIncome_02.java" afterDir="false" />
+    <list default="true" id="f652ceb9-cc40-4126-8ecf-c54caac4e045" name="Changes" comment="SoftUniBarIncome_02">
+      <change afterPath="$PROJECT_DIR$/src/StarEnigma_03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "Application.MatchPhoneNumber_02.executor": "Run",
     "Application.MultiplyBigNumber_05.executor": "Run",
     "Application.ReplaceRepeatingChars_06.executor": "Run",
+    "Application.SoftUniBarIncome_02.executor": "Run",
     "Application.StringExplosion_07.executor": "Run",
     "Application.ValidUsernames_01.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -282,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1731766054677</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="SoftUniBarIncome_02">
+      <option name="closed" value="true" />
+      <created>1731767682682</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1731767682682</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ascii Sumator" />
     <MESSAGE value="Treasure Finder" />
     <MESSAGE value="Morse Code Translator" />
     <MESSAGE value="HTML" />
@@ -311,6 +319,7 @@
     <MESSAGE value="MatchPhoneNumber_02" />
     <MESSAGE value="MatchDates_03" />
     <MESSAGE value="Furniture_01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Furniture_01" />
+    <MESSAGE value="SoftUniBarIncome_02" />
+    <option name="LAST_COMMIT_MESSAGE" value="SoftUniBarIncome_02" />
   </component>
 </project>
